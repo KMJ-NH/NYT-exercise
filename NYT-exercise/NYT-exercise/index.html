@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+
+    <!-- SECTION 1 -->
+
+    <div class="container-fluid">
+
+        <div class="row" style="text-align:center;">
+            <!-- space -->
+            <div class="col-md-2"></div>
+
+            <div class="col-md-8" id="title">
+
+                <h1>New York Times Search</h1>
+
+            </div>
+
+            <!-- space -->
+            <div class="col-md-2"></div>
+        </div>
+
+        <!-- close & row -->
+    </div>
+
+    <!-- ROW space -->
+    <div class="row">
+        <div class="col-md-12"></div>
+    </div>
+
+
+    <!-- SEARCH AREA -->
+
+
+    <div class="row" id="search-area">
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="section-head">
+
+            <h3>Search Parameters</h2>
+
+        </div>
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+    </div>
+
+    <!-- close row -->
+    </div>
+
+
+    <!-- Search Term -->
+
+
+    <div class="row">
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="search-title">
+
+            <h4>Search Term :</h4>
+
+        </div>
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+    </div>
+
+    <!-- search term : input -->
+
+    <div class="row">
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="search-input">
+            <input id="searchBarInput" type="text" name="search" placeholder="Search..">
+        </div>
+
+
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+    </div>
+
+
+
+
+    <!-- # of records to return -->
+    <div class="row">
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="section-head">
+
+            <h4>Number of Records to Return :</h4>
+
+        </div>
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <!-- close row -->
+    </div>
+
+    <!-- # of records to return : dropdown -->
+
+    <div class="row">
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="search-input">
+            <select class="form-control" id="recordsNumb">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+            </select>
+
+
+        </div>
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+    </div>
+
+    <!-- Start Year -->
+    <div class="row">
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="section-head">
+
+            <h4>Start Year (Optional) :</h4>
+
+        </div>
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <!-- close row -->
+    </div>
+
+    <!-- Start Year : Input-->
+
+    <div class="row">
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="search-input">
+            <input id="searchBarInput" type="text" name="search" placeholder="Start Year">
+
+    </div>
+
+    <!-- space -->
+    <div class="col-md-2"></div>
+
+    </div>
+
+    <!-- End Year -->
+    <div class="row">
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="section-head">
+
+            <h4>End Year (Optional) :</h4>
+
+        </div>
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <!-- close row -->
+    </div>
+
+    <!-- End Year : Input -->
+
+    <div class="row">
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="search-input">
+                <input id="searchBarInput" type="text" name="search" placeholder="End Year">
+
+
+        </div>
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+    </div>
+
+
+    <!-- End Year -->
+    <div class="row">
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8" id="section-head">
+
+            <h4>Top Articles :</h4>
+
+        </div>
+
+        <!-- space -->
+        <div class="col-md-2"></div>
+
+        <!-- close row -->
+    </div>
+
+
+    <script src="assets/nyc-ex.js"></script>
+</body>
+
+</html>
