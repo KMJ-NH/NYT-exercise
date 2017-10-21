@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,8 @@
 
     <title>Document</title>
 
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -29,11 +30,75 @@
 
         <div class="row" id="first-row" style="text-align:center;">
 
+
+        </div>
+    </div>
+    <div class="container-fluid" id="searchDiv">
+        <div class="row" id="second-row" style="text-align:left;">
+            <div class="col-md-2">
+
             </div>
+            <div class="col-md-8" id="searchBarDiv">
+                <p>Search Term</p>
+                <input id="searchBarInput" type="text" name="search" placeholder="Search..">
             </div>
-            
+            <div class="col-md-2">
+
+            </div>
+            <br>
+            <br>
+            <div class="row" id="recordsRow" style="text-align:left;">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8" id="recordsDiv">
+                    <p>Number of Records To Retrieve</p>
+                    <select class="form-control" id="recordsNumb">
+                            <option>
+
+                            </option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+            <div class="row" id="startYearRow" style="text-align:left;">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8" id="startYearDiv">
+                    <p>Start Year (optional)</p>
+                    <input id="startYearInput" type="text" name="search" placeholder="Search..">
+                </div>
+                <div class="col-md-2">
+
+                </div>
+
+
+            </div>
+            <div class="row" id="endYearRow" style="text-align:left;">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8" id="endYearDiv">
+                    <p>End Year (optional)</p>
+                    <input id="endYearInput" type="text" name="search" placeholder="Search..">
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+            <div class="row" id="buttonRow">
+                    <input class="btn btn-primary" type="submit" id="searchButton" value="Submit">
+                    <input class="btn btn-primary" type="reset" id="resetButton" value="Reset">
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="assets/nyc-ex.js"></script>
 </body>
+
 </html>
